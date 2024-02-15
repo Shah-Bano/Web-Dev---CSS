@@ -1,0 +1,34 @@
+#navbar{
+    border: 3px solid lightblue;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+#navbar ul{
+    list-style-type: none;
+    padding: 0;
+
+}
+
+#navbar li:hover{
+    background-color: lightskyblue;
+    border-radius: 15px;
+}
+
+#navbar li{
+    display:inline;
+    cursor: pointer;
+    font-size: 22px;
+    padding-left: 20px;
+}
+
+#content{
+    margin: 20px;
+}
+
+.carousel{
+    border: 3px solid lightpink;
+    width: 80%;
+    margin: 20px auto;
+    position: relative;
+}
