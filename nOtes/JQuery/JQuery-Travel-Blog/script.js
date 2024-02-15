@@ -38,10 +38,20 @@ const categoryImages = {
         { alt: "Snowy peak", src: "mountain2.jpg" },
         { alt: "Snowy peak", src: "mountain3.jpg" },
     ],
-    mountains: [
-        { alt: "Snowy peak", src: "mountain1.jpg" },
-        { alt: "Snowy peak", src: "mountain2.jpg" },
-        { alt: "Snowy peak", src: "mountain3.jpg" },
+    cities: [
+        { alt: "dubai", src: "city1.jpg" },
+        { alt: "oshawa", src: "city2.jpg" },
+        { alt: "islamabad", src: "city3.jpg" },
+    ],
+    deserts: [
+        { alt: "desert resort", src: "desert1.jpg" },
+        { alt: "saharah desert", src: "desert2.jpg" },
+        { alt: "desert oiasis", src: "desert3.jpg" },
+    ],
+    forests: [
+        { alt: "fairy", src: "forest1.jpg" },
+        { alt: "amazon rainforest", src: "forest2.jpg" },
+        { alt: "forest resort", src: "forest3.jpg" },
     ],
 };
 
