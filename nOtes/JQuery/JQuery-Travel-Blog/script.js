@@ -102,6 +102,8 @@ $(document).ready(function () {
         deserts: "Enjoy the heat and many acitvities",
       };
 
+      const favCategory = "mountains";
+      const favoriteCategoryDescription = favoriteCategoryDescriptions[favCategory];
     
   });
 
