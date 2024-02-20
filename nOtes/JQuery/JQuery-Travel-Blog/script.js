@@ -36,9 +36,9 @@ $(document).ready(function () {
         { alt: "Hiking Trail", src: "mountain3.jpg" },
       ],
       cities: [
-        { alt: "Toronto", src: "mountain1.jpg" },
-        { alt: "Oshawa", src: "mountain2.jpg" },
-        { alt: "Ottawa", src: "mountain3.jpg" },
+        { alt: "Toronto", src: "Toronto.webp" },
+        { alt: "Oshawa", src: "Oshawa_ON.jpeg" },
+        { alt: "Ottawa", src: "Ottawa.jpg.jpg" },
       ],
       forests: [
         { alt: "Amazon rainforest", src: "mountain1.jpg" },
@@ -46,9 +46,9 @@ $(document).ready(function () {
         { alt: "Forest Resort", src: "mountain3.jpg" },
       ],
       deserts: [
-        { alt: "Saharah desert", src: "mountain1.jpg" },
-        { alt: "Minecraft desert", src: "mountain2.jpg" },
-        { alt: "Desert Safari", src: "mountain3.jpg" },
+        { alt: "Saharah desert", src: "SaharaDesert.jpg" },
+        { alt: "Minecraft desert", src: "MCDESERT.PNG" },
+        { alt: "Desert Safari", src: "Safari.jpg" },
       ],
 
     };
@@ -104,6 +104,8 @@ $(document).ready(function () {
 
       const favCategory = "mountains";
       const favoriteCategoryDescription = favoriteCategoryDescriptions[favCategory];
+
+      $("#footer").html(`<p>${favoriteCategoryDescription}</p>`);
     
   });
 
