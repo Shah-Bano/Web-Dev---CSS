@@ -94,6 +94,13 @@ $(document).ready(function () {
       items.eq(newIndex).addClass("active");
     };
 
+    const favoriteCategoryDescriptions = {
+        beaches: "Plenty of beaches to escape the canadian winter",
+        mountains: "Mountains to reach zen",
+        cities: "Enjoy the hustle and bustle of a city life",
+        forests: "Reconnect with nature",
+        deserts: "Enjoy the heat and many acitvities",
+      };
 
     
   });
