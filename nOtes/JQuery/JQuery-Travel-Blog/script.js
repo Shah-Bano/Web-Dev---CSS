@@ -95,7 +95,7 @@ $(document).ready(function () {
 
     const favoriteCategoryDescriptions = {
         beaches: "Plenty of beaches to escape the canadian winter",
-        mountains: "Mountains to reach zen",
+        mountains: "Mountains to reach zen, i like them cuz it's just beautiful and something about it is so relaxing",
         cities: "Enjoy the hustle and bustle of a city life",
         forests: "Reconnect with nature",
         deserts: "Enjoy the heat and many acitvities",
