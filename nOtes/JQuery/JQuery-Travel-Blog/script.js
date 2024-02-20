@@ -26,29 +26,29 @@ $(document).ready(function () {
   
     const categoryImages = {
       beaches: [
-        { alt: "Beach Sunset", src: "beach1.jpg" },
-        { alt: "Sandy Shore", src: "beach2.jpg" },
-        { alt: "Marina Resort", src: "beach3.jpg" },
+        { alt: "Beach Sunset"},
+        { alt: "Sandy Shore" },
+        { alt: "Marina Resort"},
       ],
       mountains: [
-        { alt: "Mountain Range", src: "mountain1.jpg" },
-        { alt: "Snowy Peak", src: "mountain2.jpg" },
-        { alt: "Hiking Trail", src: "mountain3.jpg" },
+        { alt: "Mountain Range" },
+        { alt: "Snowy Peak" },
+        { alt: "Hiking Trail" },
       ],
       cities: [
-        { alt: "Toronto", src: "Toronto.webp" },
-        { alt: "Oshawa", src: "Oshawa_ON.jpeg" },
-        { alt: "Ottawa", src: "Ottawa.jpg.jpg" },
+        { alt: "Toronto", src: "./Toronto.webp" },
+        { alt: "Oshawa", src: "./Oshawa_ON.jpeg" },
+        { alt: "Ottawa", src: "./Ottawa.jpg" },
       ],
       forests: [
-        { alt: "Amazon rainforest", src: "mountain1.jpg" },
-        { alt: "Fairy forest", src: "mountain2.jpg" },
-        { alt: "Forest Resort", src: "mountain3.jpg" },
+        { alt: "Amazon rainforest" },
+        { alt: "Fairy forest"},
+        { alt: "Forest Resort"},
       ],
       deserts: [
-        { alt: "Saharah desert", src: "SaharaDesert.jpg" },
-        { alt: "Minecraft desert", src: "MCDESERT.PNG" },
-        { alt: "Desert Safari", src: "Safari.jpg" },
+        { alt: "Saharah desert", src: "./SaharaDesert.jpg" },
+        { alt: "Minecraft desert", src: "./MCDESERT.PNG" },
+        { alt: "Desert Safari", src: "./Safari.jpg" },
       ],
 
     };
@@ -78,7 +78,6 @@ $(document).ready(function () {
     }
   
     window.moveCarousel = function (category, direction) {
-      debugger;
       let items = $(`#${category}-carousel .carousel-item`);
   
       let activeIndex = items.index(items.filter(".active"));
